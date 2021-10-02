@@ -1,8 +1,8 @@
 //Detecting Button Press
 
-var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+var numberOfDrumButtons = document.querySelectorAll(".drum).length;
 
-for (var i = 0; i < numberOfDrumButtons; i++) {
+for (var i = 0; i < numberOfDrumButtons; i+) {
   document.querySelectorAll(".drum")[i].addEventListener("click", trigger);
 }
 
@@ -32,7 +32,7 @@ function makeSound(key) {
     case "a":
       var tom2 = new Audio("sounds/tom-2.mp3");
       tom2.play();
-      break;
+     
 
     case "s":
       var tom3 = new Audio("sounds/tom-3.mp3");
